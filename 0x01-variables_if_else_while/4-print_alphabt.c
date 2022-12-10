@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
+
 /**
  * main - Entry point
  *
@@ -8,18 +9,18 @@
  */
 int main(void)
 {
-	char c;
+	char ch;
 
-	c = 'a';
+	ch = 'a';
 
-	while (c <= 'z')
-
-	{
-	if ((c != 'q' && c != 'e') && c <= 'z')
+	while (ch <= 'z')
 
 	{
-		putchar(c);
-		c++;
+	if ((ch != 'q' && ch != 'e') && ch <= 'z')
+
+	{
+		putchar(ch);
+		ch++;
 	}
 	}
 	putchar('\n');
