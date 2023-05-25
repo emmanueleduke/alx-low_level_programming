@@ -1,1 +1,1 @@
-Learning C programming language 
+ALX low-level language. Learning C programming language
